@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page1</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    section
+    {
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        background: url(img/bg.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 100px;
+
+    }
+    header
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 30px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    header .logo
+    {
+        position: relative;
+        font-size: 2em;
+        color: #FFF;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-decoration: none;
+        letter-spacing: 1px;
+
+    }
+    header .navigation
+    {
+        position: relative;
+        display: flex;
+
+    }
+    header .navigation li
+    {
+        list-style: none;
+    }
+    header .navigation li a
+    {
+        display: inline-block;
+        color: #FFF;
+        margin-right: 40px;
+        text-decoration: none;
+
+    }
+    header .navigation li a:hover
+    {
+        color: #03a9f4;
+    }
+    .content
+    {
+        max-width: 600px;
+
+    }
+    .content .contentBx h2
+    {
+        font-size: 4em;
+        color: #FFF;
+        line-height: 1em;
+    }
+    .content .contentBx p
+    {
+        font-size: 1.1em;
+        color: #FFF;
+        font-weight: 300;
+        margin: 20px 0;
+    }
+    .content .contentBx a
+    {
+        display: inline-block;
+        padding: 10px 30px;
+        background: #03a9f4;
+        color:#fff;
+        text-decoration: none;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    .sci
+    {
+        position: absolute;
+        bottom: 30px;
+        display: flex;
+    }
+    .sci li
+    {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sci li a
+    {
+        position: relative;
+        display: inline-block;
+        margin-right:20px;
+        filter: invert(1);
+        transform:scale(0.5);
+    }
+
+</style>
+<body>
+    <section>
+        <header>
+            <a href="#" class="logo">Fitness</a>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Trainer</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="contentBx">
+                <h2>Build Perfect Body<br>
+                With Clean Mind</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet vel, debitis, atque quaerat sed rem officia, obcaecati iste a laboriosam sapiente? Tenetur iste, quas amet quidem aut at perspiciatis nam?</p>    
+                <a href="#">Get started</a>
+            </div>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+        </ul>
+    </section>
+</body>
+</html>
